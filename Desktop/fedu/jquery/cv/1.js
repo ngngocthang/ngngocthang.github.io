@@ -34,6 +34,11 @@
  	$('#backtotop').click(function(){
  		$('body,html').animate({scrollTop: 0},1000);
  	});
+
+ 	$('.menu a').click(function(){
+ 		$('.wrapper-menu').removeClass('wrapper-menu-active');
+ 		console.log('click')
+ 	});
 })  
  
  	var scroll = $('.scroll').offset().top;
