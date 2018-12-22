@@ -421,10 +421,15 @@ button.button-menu.button-menu-active {
 
 button.button-menu {
     display: block;
-    position: fixed;
-    top: 20px;
-    right: 20px;
+    /* position: relative; */
+    /* top: 0; */
+    /* right: 20px; */
     transition: 0.4s;
+    width: 100%;
+    text-align: right;
+    background: #2a2a28;
+    border: none;
+    padding-right: 20px;
 }
 
 button.button-menu i {
